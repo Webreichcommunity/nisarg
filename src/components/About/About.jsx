@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <section className="py-4 bg-gray-100 text-center mt-4 rounded-lg px-8" id='aboutus'>
+    <section className="py-4 bg-gray-100 text-left mt-4 rounded-lg px-8" id='aboutus'>
       <div className="container mx-auto md:px-12">
         {/* Chip Section */}
         <div className="mt-6 flex max-w-max items-center space-x-2 rounded-full border p-2 bg-green-50">

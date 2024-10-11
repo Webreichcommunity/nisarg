@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center px-6">
         {/* Logo with animated effect */}
         <motion.img
-          src="/src/assets/logo.png"
+          src="/logo.png"
           alt="logo"
           whileHover={{ scale: 1.1, rotate: 10 }}
           transition={{ type: 'spring', stiffness: 300 }}
@@ -34,11 +34,11 @@ const Navbar = () => {
           <Link className="text-black text-md font-semibold hover:text-green-700 transition duration-300" to="/#plants" smooth>
             Plants
           </Link>
-          <Link className="text-black text-md font-semibold hover:text-green-700 transition duration-300" to="/#services" smooth>
-            Services
-          </Link>
           <Link className="text-black text-md font-semibold hover:text-green-700 transition duration-300" to="/#gallery" smooth>
             Gallery
+          </Link>
+          <Link className="text-black text-md font-semibold hover:text-green-700 transition duration-300" to="/#services" smooth>
+            Services
           </Link>
           <Link className="text-black text-md font-semibold hover:text-green-700 transition duration-300" to="/#contact" smooth>
             Contact
@@ -46,7 +46,7 @@ const Navbar = () => {
           {/* Call to Action Button */}
           <Link
             className="bg-green-600 text-gray-800 px-5 py-2 rounded-full font-semibold hover:bg-green-900 transition duration-300 shadow-lg"
-            to="/book"
+            to="/booknow"
           >
             Book Now
           </Link>
@@ -68,27 +68,27 @@ const Navbar = () => {
           transition={{ duration: 0.4 }}
           className="md:hidden bg-white p-6 shadow-lg rounded-lg space-y-4 absolute top-16 left-0 w-full"
         >
-          <Link className="block text-black text-md font-semibold hover:text-green-700 transition duration-300" to="/" onClick={() => setIsOpen(false)}>
+          <Link className="block text-black text-md font-semibold hover:text-green-700 transition duration-300" to="/#home" onClick={() => setIsOpen(false)}>
             Home
           </Link>
-          <Link className="block text-black text-md font-semibold hover:text-green-700 transition duration-300" to="/about" onClick={() => setIsOpen(false)}>
+          <Link className="block text-black text-md font-semibold hover:text-green-700 transition duration-300" to="/#aboutus" onClick={() => setIsOpen(false)}>
             About Us
           </Link>
-          <Link className="block text-black text-md font-semibold hover:text-green-700 transition duration-300" to="/plants" onClick={() => setIsOpen(false)}>
+          <Link className="block text-black text-md font-semibold hover:text-green-700 transition duration-300" to="/#plants" onClick={() => setIsOpen(false)}>
             Plants
           </Link>
-          <Link className="block text-black text-md font-semibold hover:text-green-700 transition duration-300" to="/services" onClick={() => setIsOpen(false)}>
+          <Link className="block text-black text-md font-semibold hover:text-green-700 transition duration-300" to="/#services" onClick={() => setIsOpen(false)}>
             Services
           </Link>
-          <Link className="block text-black text-md font-semibold hover:text-green-700 transition duration-300" to="/gallery" onClick={() => setIsOpen(false)}>
+          <Link className="block text-black text-md font-semibold hover:text-green-700 transition duration-300" to="/#gallery" onClick={() => setIsOpen(false)}>
             Gallery
           </Link>
-          <Link className="block text-black text-md font-semibold hover:text-green-700 transition duration-300" to="/contact" onClick={() => setIsOpen(false)}>
+          <Link className="block text-black text-md font-semibold hover:text-green-700 transition duration-300" to="/#contact" onClick={() => setIsOpen(false)}>
             Contact
           </Link>
           <Link
             className="bg-green-600 text-gray-800 px-5 py-2 block text-center rounded-full font-semibold hover:bg-green-800 transition duration-300 shadow-lg"
-            to="/book"
+            to="/booknow"
             onClick={() => setIsOpen(false)}
           >
             Book Now

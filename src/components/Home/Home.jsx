@@ -1,26 +1,26 @@
-import React from 'react';
-import About from './AboutUs';
-import PlantsSection from './Plants';
-import Services from './Services';
-import Gallery from './Gallery';
-import Contact from './Contact';
+import React from 'react'
 import { useEffect, useState } from 'react';
-import { motion } from 'framer-motion'; // Import motion for animations
+import { motion } from 'framer-motion';
+import About from '../About/About';
+import PlantsSection from '../Plants/Plants';
+import Gallery from '../Gallery/Gallery';
+import Services from '../Services/Services';
+import Contact from '../Contact/Contact';
 
 const Home = () => {
     const images = [
         {
-            src: "https://nisarg-nursery-images-folder.vercel.app/images/img%20(4).jpg",
+            src: "https://nisarg-nursery-images-folder.vercel.app/images/img%20(67).jpg",
             heading: "Farm Management",
             description: "Expert guidance and services to manage your farming needs."
         },
         {
-            src: "https://nisarg-nursery-images-folder.vercel.app/images/img%20(11).jpg",
+            src: "https://nisarg-nursery-images-folder.vercel.app/images/img%20(65).jpg",
             heading: "Plant Consultation",
             description: "Personalized consultations to help you choose the right plants."
         },
         {
-            src: "https://nisarg-nursery-images-folder.vercel.app/images/img%20(38).jpg",
+            src: "https://nisarg-nursery-images-folder.vercel.app/images/img%20(31).jpg",
             heading: "Landscape Design",
             description: "Transform your outdoor spaces with our design services."
         },
@@ -34,21 +34,26 @@ const Home = () => {
             heading: "Sustainable Practices",
             description: "Promoting eco-friendly farming practices for a greener future."
         },
+
+        {
+            src: "https://nisarg-nursery-images-folder.vercel.app/images/img%20(17).jpg",
+            heading: "Event Management",
+            description: "Event management involves planning, organizing, and executing events such as weddings, corporate meetings, parties, and other programs, ensuring everything runs smoothly and meets client expectations."
+        },
     ];
-  
+
     const [currentImage, setCurrentImage] = useState(0);
-  
+
     useEffect(() => {
         const intervalId = setInterval(() => {
             setCurrentImage((prevIndex) => (prevIndex + 1) % images.length);
         }, 2000); // Change image every 2 seconds
-  
+
         return () => clearInterval(intervalId); // Cleanup interval on unmount
     }, [images.length]);
 
     return (
         <>
-            {/* Hero section */}
             <div className="w-full mt-14 text-left px-8">
                 {/* Hero Section */}
                 <div className="relative w-full" id="home">
@@ -103,11 +108,11 @@ const Home = () => {
 
             <About />
             <PlantsSection />
-            <Services />
             <Gallery />
+            <Services />
             <Contact />
         </>
-    );
-};
+    )
+}
 
-export default Home;
+export default Home

@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -33,22 +33,23 @@ const Footer = () => {
           <h3 className="font-semibold text-lg mb-3">Follow Us</h3>
           <div className="flex justify-center md:justify-start space-x-4">
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/profile.php?id=100010485395594&mibextid=ZbWKwL"
               className="bg-gray-200 p-3 rounded-full hover:bg-gray-300 transition duration-300"
             >
               <FaFacebookF className="text-black" />
             </a>
             <a
-              href="https://twitter.com"
+              href="https://www.instagram.com/nisargnursery11/"
               className="bg-gray-200 p-3 rounded-full hover:bg-gray-300 transition duration-300"
             >
-              <FaTwitter className="text-black" />
+              <FaInstagram className="text-black" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://wa.me/919767662367
+"
               className="bg-gray-200 p-3 rounded-full hover:bg-gray-300 transition duration-300"
             >
-              <FaLinkedinIn className="text-black" />
+              <FaWhatsapp className="text-black" />
             </a>
           </div>
         </div>
@@ -56,7 +57,7 @@ const Footer = () => {
 
       <div className="flex flex-col md:flex-row justify-between items-center mx-auto px-8 mt-8">
         <div className="flex items-center space-x-2">
-          <img src="/src/assets/logo.png" alt="Logo" className="h-8" />
+          <img src="/logo.png" alt="Logo" className="h-8" />
           <p className="text-gray-500">© 2024 Nisarg Nursery. All Rights Reserved.</p>
         </div>
         <div className="flex space-x-4 mt-4 md:mt-0 text-gray-500">
@@ -68,12 +69,12 @@ const Footer = () => {
 
       {/* Scroll to top button */}
       <div className="fixed bottom-8 right-8">
-        <a
+        {/* <a
           href="#top"
           className="bg-gray-200 p-3 rounded-full text-black hover:bg-gray-300 transition duration-300 shadow-lg"
         >
           ⬆
-        </a>
+        </a> */}
       </div>
     </footer>
   );
