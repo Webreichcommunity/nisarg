@@ -21,7 +21,7 @@ const servicesData = [
       title: "Vertical Garden",
       description:
         "Maximize your green space with our vertical garden solutions. Ideal for urban environments, these gardens bring greenery to walls and tight spaces, enhancing beauty while promoting sustainability.",
-      imgSrc: "https://nisarg-nursery-images-folder.vercel.app/images/img%20(49).jpg",
+      imgSrc: "https://www.gardenstead.com/wp-content/uploads/2021/11/vertical-wall-gardening-1024x768.jpg",
       imgAlt: "Vertical Garden",
       reverse: false,
     },
@@ -68,7 +68,7 @@ const Services = () => {
 
   return (
     <section className="services bg-gray-100 py-12">
-      <div className="container mx-auto px-4 lg:px-8">
+      <div className="container mx-auto px-4 lg:px-8" id="services">
         <h2 className="text-2xl md:text-3xl font-bold text-left mb-8 text-green-800">Our Services</h2>
         
         {servicesData.map((service, index) => (
