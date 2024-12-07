@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const WEB3FORMS_ACCESS_KEY = "YOUR_ACCESS_KEY_HERE"; // Replace with your actual key
+const WEB3FORMS_ACCESS_KEY = "9274ea53-74b9-4827-b341-9015345f2e30"; // Replace with your actual key
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -115,7 +115,7 @@ const Contact = () => {
               <h3 className="text-2xl font-bold text-green-700 mb-2">Nisarg Nursery</h3>
               <p className="mb-2">Kanheri Sarap, Akola, Maharashtra</p>
               <p className="mb-2">Phone: +91 9767662367</p>
-              <p className="mb-2">Email: info@nisargnursery.com</p>
+              <p className="mb-2">Email: nisargnursery11@gmail.com</p>
               <p className="font-semibold text-green-700">Over 7000 varieties of plants since 2010</p>
               <a href="https://maps.app.goo.gl/WgwwHyKaSW4gpugw5" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">View on Google Maps</a>
             </div>

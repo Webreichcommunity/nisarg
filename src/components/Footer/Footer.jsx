@@ -19,13 +19,13 @@ const Footer = () => {
         {/* Phone Section */}
         <div>
           <h3 className="font-semibold text-lg mb-3">Phone</h3>
-          <p>+91 8308426082 / 8983457789</p>
+          <p>+91 9767662367 / 8999663272</p>
         </div>
 
         {/* Email Section */}
         <div>
           <h3 className="font-semibold text-lg mb-3">Email</h3>
-          <p>nisarg.nursery@gmail.com</p>
+          <p>nisargnursery11@gmail.com</p>
         </div>
 
         {/* Social Section */}

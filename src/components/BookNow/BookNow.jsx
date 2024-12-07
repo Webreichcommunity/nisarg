@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-const WEB3FORMS_ACCESS_KEY = "49dfa941-0704-4a4a-9210-872f1bb719c0";
+const WEB3FORMS_ACCESS_KEY = "9274ea53-74b9-4827-b341-9015345f2e30";
 
 const plantCategories = [
   "Outdoor Plants",
