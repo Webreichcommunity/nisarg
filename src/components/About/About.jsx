@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -7,7 +8,7 @@ const About = () => {
         {/* Chip Section */}
         <div className="mt-6 flex max-w-max items-center space-x-2 rounded-full border p-2 bg-green-50">
           <p className="text-xs font-medium md:text-sm">
-          Learn More About Us
+            Learn More About Us
             <span className="ml-2 cursor-pointer font-bold">Explore Now &rarr;</span>
           </p>
         </div>
@@ -47,15 +48,16 @@ const About = () => {
 
         {/* Call-to-Action & Contact Section */}
         <div className="mt-12 text-center">
-          <button className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full text-lg font-semibold mb-4">
-            Explore Our Plants
-          </button>
-
+          <Link to="/booknow">
+            <button className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full text-lg font-semibold mb-4">
+              Book Now
+            </button>
+          </Link>
           <div className="flex flex-col items-center space-y-2 mt-6">
             <a href="https://instagram.com/nisargnursery" target="_blank" rel="noopener noreferrer" className="text-green-600 font-semibold">
               Follow us on Instagram &rarr;
             </a>
-            <p className="text-gray-700 font-medium">Contact: +91 1234567890</p>
+            <p className="text-gray-700 font-medium">Contact: +91 9767662367</p>
           </div>
         </div>
       </div>

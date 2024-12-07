@@ -21,7 +21,7 @@ const servicesData = [
       title: "Vertical Garden",
       description:
         "Maximize your green space with our vertical garden solutions. Ideal for urban environments, these gardens bring greenery to walls and tight spaces, enhancing beauty while promoting sustainability.",
-      imgSrc: "https://www.gardenstead.com/wp-content/uploads/2021/11/vertical-wall-gardening-1024x768.jpg",
+      imgSrc: "https://gardentabs.com/wp-content/uploads/2019/10/Green-wall-eco-friendly-vertical-garden.jpg",
       imgAlt: "Vertical Garden",
       reverse: false,
     },
@@ -29,7 +29,7 @@ const servicesData = [
       title: "Vegetable Garden",
       description:
         "Grow your own organic vegetables with our tailored vegetable garden design services. Whether it’s a small backyard or a large farm, we’ll help you cultivate fresh produce for your home or business.",
-      imgSrc: "https://nisarg-nursery-images-folder.vercel.app/images/img%20(54).jpg",
+      imgSrc: "https://www.eastbaytimes.com/wp-content/uploads/2021/02/SJM-L-GARDENING101-02XX-06_82066604-2.jpg?w=1569",
       imgAlt: "Vegetable Garden",
       reverse: true,
     },

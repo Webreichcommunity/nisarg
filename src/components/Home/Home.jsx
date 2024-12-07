@@ -6,6 +6,8 @@ import PlantsSection from '../Plants/Plants';
 import Gallery from '../Gallery/Gallery';
 import Services from '../Services/Services';
 import Contact from '../Contact/Contact';
+import { Link } from 'react-router-dom';
+
 
 const Home = () => {
     const images = [
@@ -69,12 +71,14 @@ const Home = () => {
                                 Transform Your Space with Beautiful Plants from Nisarg Nursery
                             </h1>
                             <div className="mt-6">
-                                <button
-                                    type="button"
-                                    className="rounded-md bg-green-500 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
-                                >
-                                    Discover More
-                                </button>
+                                <Link  to="/booknow">
+                                    <button
+                                        type="button"
+                                        className="rounded-md bg-green-500 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                                    >
+                                        Book Now
+                                    </button>
+                                </Link>
                             </div>
                         </div>
 
